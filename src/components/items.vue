@@ -31,18 +31,18 @@ export default {
   name: 'items',
   data(){
     return{
-      itemNumber1:null,
-      itemNumber2:null,
-      itemNumber3:null,
-      itemNumber4:null,
+      itemNumber1:20,
+      itemNumber2:46,
+      itemNumber3:15,
+      itemNumber4:2,
       checkedList1:false,
       checkedList2:false,
       checkedList3:false,
       checkedList4:false,
-      itemColour1:'',
-      itemColour2:'',
-      itemColour3:'',
-      itemColour4:'',
+      itemColour1:'#da1616',
+      itemColour2:'#00ff40',
+      itemColour3:'#ffae00',
+      itemColour4:'#da1616',
       numberItems:[1,2,3,4]
     }
   },
